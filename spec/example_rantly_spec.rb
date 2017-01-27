@@ -1,12 +1,13 @@
+require "spec_helper"
 require 'rantly/rspec_extensions'
 
-RSpec do
+RSpec.describe ExampleRantly do
   it "example" do
     property_of {
       i = integer
-      [i,i+1]
+      [i,i + 1]
     }.check { |(a,b)|
-      expect(a).to_eq b
+      expect(a).to eq b
     }
   end
 end
