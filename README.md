@@ -2,6 +2,7 @@
 
 An example to illustrate the strange behaviour in rantly with the trace since the last release.
 
+<img src=screenshot.png alt='rspec output' />
 
 ## License
 
